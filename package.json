@@ -1,0 +1,15 @@
+{
+  "name": "hannune",
+  "private": true,
+  "type": "module",
+  "description": "오픈뱅킹으로 모은 계좌를 한 화면에서 비교하고, 느린 기관이 전체를 막지 않게 하는 앱",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-session": "^1.18.2"
+  }
+}

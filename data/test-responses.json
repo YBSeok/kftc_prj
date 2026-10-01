@@ -1,0 +1,125 @@
+{
+  "user": {
+    "api_tran_id": "demo-user-me",
+    "rsp_code": "A0000",
+    "rsp_message": "",
+    "user_seq_no": "1000000106",
+    "user_name": "테스트 사용자",
+    "res_cnt": "3",
+    "res_list": [
+      {
+        "fintech_use_num": "199167890123456789012341",
+        "account_alias": "생활비",
+        "bank_code_std": "097",
+        "bank_code_sub": "0000000",
+        "bank_name": "오픈은행",
+        "savings_bank_name": "",
+        "account_num_masked": "1101234567***",
+        "account_seq": "",
+        "account_holder_name": "테스트 사용자",
+        "account_holder_type": "P",
+        "account_type": "1",
+        "inquiry_agree_yn": "Y",
+        "inquiry_agree_dtime": "20260301103000",
+        "transfer_agree_yn": "Y",
+        "transfer_agree_dtime": "20260301103000",
+        "payer_num": "20260301103000123456"
+      },
+      {
+        "fintech_use_num": "199167890123456789012342",
+        "account_alias": "급여",
+        "bank_code_std": "099",
+        "bank_code_sub": "0000000",
+        "bank_name": "한빛은행",
+        "savings_bank_name": "",
+        "account_num_masked": "2209876543***",
+        "account_seq": "",
+        "account_holder_name": "테스트 사용자",
+        "account_holder_type": "P",
+        "account_type": "1",
+        "inquiry_agree_yn": "Y",
+        "inquiry_agree_dtime": "20260301103100",
+        "transfer_agree_yn": "Y",
+        "transfer_agree_dtime": "20260301103100",
+        "payer_num": "20260301103100123457"
+      },
+      {
+        "fintech_use_num": "199167890123456789012343",
+        "account_alias": "적금",
+        "bank_code_std": "050",
+        "bank_code_sub": "0000000",
+        "bank_name": "느린저축은행",
+        "savings_bank_name": "느린저축은행",
+        "account_num_masked": "3305551212***",
+        "account_seq": "",
+        "account_holder_name": "테스트 사용자",
+        "account_holder_type": "P",
+        "account_type": "2",
+        "inquiry_agree_yn": "Y",
+        "inquiry_agree_dtime": "20260402141500",
+        "transfer_agree_yn": "N",
+        "transfer_agree_dtime": "",
+        "payer_num": ""
+      }
+    ]
+  },
+  "balances": [
+    {
+      "delayMs": 450,
+      "slow": false,
+      "body": {
+        "api_tran_id": "demo-balance-1",
+        "rsp_code": "A0000",
+        "rsp_message": "",
+        "bank_name": "오픈은행",
+        "savings_bank_name": "",
+        "fintech_use_num": "199167890123456789012341",
+        "balance_amt": "2450000",
+        "available_amt": "2400000",
+        "account_type": "1",
+        "product_name": "내맘대로통장",
+        "account_issue_date": "20220314",
+        "maturity_date": "",
+        "last_tran_date": "20260928"
+      }
+    },
+    {
+      "delayMs": 900,
+      "slow": false,
+      "body": {
+        "api_tran_id": "demo-balance-2",
+        "rsp_code": "A0000",
+        "rsp_message": "",
+        "bank_name": "한빛은행",
+        "savings_bank_name": "",
+        "fintech_use_num": "199167890123456789012342",
+        "balance_amt": "860000",
+        "available_amt": "860000",
+        "account_type": "1",
+        "product_name": "월급통장",
+        "account_issue_date": "20210802",
+        "maturity_date": "",
+        "last_tran_date": "20260930"
+      }
+    },
+    {
+      "delayMs": 2800,
+      "slow": true,
+      "body": {
+        "api_tran_id": "demo-balance-3",
+        "rsp_code": "A0000",
+        "rsp_message": "",
+        "bank_name": "느린저축은행",
+        "savings_bank_name": "느린저축은행",
+        "fintech_use_num": "199167890123456789012343",
+        "balance_amt": "3600000",
+        "available_amt": "0",
+        "account_type": "2",
+        "product_name": "청년도약적금",
+        "account_issue_date": "20240115",
+        "maturity_date": "20270115",
+        "last_tran_date": "20260915"
+      }
+    }
+  ]
+}
